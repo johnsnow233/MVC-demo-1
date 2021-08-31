@@ -1,0 +1,24 @@
+#app2{
+ border: 1px blue solid;
+}
+#app2 .tab-bar{
+    display: flex;
+    
+}
+#app2 .tab-bar li{
+    width: 50%;
+    border: 2px solid purple;
+}
+#app2 .tab-bar li.selector{
+    background: yellow;
+    color: white;
+}
+#app2 .tab-content{
+    
+}
+#app2 .tab-content>li{
+    display: none;
+}
+#app2 .tab-content>li.active{
+    display: block;
+}
